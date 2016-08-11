@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.banchan.rssreaderL.MainActivity">
+
+
+    <item
+        android:id="@+id/weather"
+        android:orderInCategory="91"
+        android:title="天気予報"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reload"
+        android:orderInCategory="92"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="再読み込み"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settingFG"
+        android:orderInCategory="95"
+        android:title="設定"
+        app:showAsAction="never" />
+<!--
+    <item
+        android:id="@+id/addUri"
+        android:orderInCategory="97"
+        android:title="新規RSSの追加"
+        app:showAsAction="never" />
+-->
+    <item
+        android:id="@+id/OP1"
+        android:orderInCategory="100"
+        android:title="終了"
+        app:showAsAction="never" />
+</menu>

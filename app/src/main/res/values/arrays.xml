@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="periods">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="textsize">
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="timeout">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+
+    <string-array name="rss_uri">
+        <item>http://www3.nhk.or.jp/rss/news/cat0.xml;NHK 総合</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat1.xml;NHK 社会</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat2.xml;NHK 文化・エンタメ</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat3.xml;NHK 科学・医療</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat4.xml;NHK 政治</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat5.xml;NHK 経済</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat6.xml;NHK 国際</item>
+        <item>http://www3.nhk.or.jp/rss/news/cat7.xml;NHK スポーツ</item>
+
+        <item>http://news.livedoor.com/rss/article/vender/alba;アルバゴルフ</item>
+        <item>http://news.livedoor.com/rss/article/vender/sanspo;サンケイスポーツ</item>
+        <item>http://news.livedoor.com/rss/article/vender/hochi;スポーツ報知</item>
+        <item>http://news.livedoor.com/rss/article/vender/sponichiannex;スポニチアネックス</item>
+        <item>http://news.livedoor.com/rss/article/vender/daily_sports;デイリースポーツ</item>
+        <item>http://news.livedoor.com/rss/article/vender/tokyo-sports;東スポWeb</item>
+
+        <item>http://news.livedoor.com/rss/article/vender/shukan-bunshun;週刊文春WEB</item>
+        <item>http://news.livedoor.com/rss/article/vender/gendai;日刊ゲンダイ</item>
+        <item>http://news.livedoor.com/rss/article/vender/nikkan_spa;日刊SPA!</item>
+        <item>http://news.livedoor.com/rss/article/vender/taishu;日刊大衆</item>
+        <item>http://news.livedoor.com/rss/article/vender/zakzak;ZAKZAK（夕刊フジ）</item>
+
+        <item>http://news.livedoor.com/topics/rss/top.xml;livedoor 主要</item>
+        <item>http://news.livedoor.com/topics/rss/dom.xml;livedoor 国内</item>
+        <item>http://news.livedoor.com/topics/rss/int.xml;livedoor 海外</item>
+        <item>http://news.livedoor.com/topics/rss/eco.xml;livedoor 経済</item>
+        <item>http://news.livedoor.com/topics/rss/ent.xml;livedoor 芸能</item>
+        <item>http://news.livedoor.com/topics/rss/spo.xml;livedoor スポーツ</item>
+        <item>http://news.livedoor.com/rss/summary/52.xml;livedoor 映画</item>
+        <item>http://news.livedoor.com/topics/rss/gourmet.xml;livedoor グルメ</item>
+        <item>http://news.livedoor.com/rss/article/vender/special;livedoor 特集</item>
+
+        <item>http://news.livedoor.com/rss/article/vender/ithack;livedoor ITハック</item>
+        <item>http://itpro.nikkeibp.co.jp/rss/ITpro.rdf;IT Pro</item>
+        <item>http://feed.japan.zdnet.com/rss/index.rdf;ZDNet</item>
+        <item>http://news.livedoor.com/rss/article/vender/mag-kakaku;価格.com</item>
+        <item>http://news.livedoor.com/rss/article/vender/otoriyose;おとりよせネット</item>
+        <item>http://news.livedoor.com/rss/article/vender/entabe;えん食べ</item>
+
+        <item>http://news.livedoor.com/rss/article/vender/r25jp;R25</item>
+        <item>http://news.livedoor.com/rss/article/vender/cocoloni-imuryouranai;i無料占い</item>
+        <item>http://news.livedoor.com/rss/article/vender/web_tv;webザテレビジョン</item>
+        <item>http://news.livedoor.com/rss/article/vender/all_about;ALL ABOUT</item>
+        <item>http://news.livedoor.com/rss/article/vender/oshiete_watchder;教えて！goo ウォッチ</item>
+        <item>http://news.livedoor.com/rss/article/vender/gendaibiz;現代ビジネス</item>
+        <item>http://news.livedoor.com/rss/article/vender/jisin;女性自身</item>
+        <item>http://news.livedoor.com/rss/article/vender/zexy;セキララ★ゼクシィ</item>
+        <item>http://news.livedoor.com/rss/article/vender/tfm-plus;TOKYO FM+</item>
+
+    </string-array>
+
+    <string-array name="weathr_area">
+        <item>01;北海道</item>
+        <item>02;青森</item>
+        <item>03;岩手</item>
+        <item>04;宮城</item>
+        <item>05;秋田</item>
+        <item>06;山形</item>
+        <item>07;福島</item>
+        <item>08;茨城</item>
+        <item>09;栃木</item>
+        <item>10;群馬</item>
+        <item>11;埼玉</item>
+        <item>12;千葉</item>
+        <item>13;東京</item>
+        <item>14;神奈川</item>
+        <item>15;新潟</item>
+        <item>16;富山</item>
+        <item>17;石川</item>
+        <item>18;福井</item>
+        <item>19;山梨</item>
+        <item>20;長野</item>
+        <item>21;岐阜</item>
+        <item>22;静岡</item>
+        <item>23;愛知</item>
+        <item>24;三重</item>
+        <item>25;滋賀</item>
+        <item>26;京都</item>
+        <item>27;大阪</item>
+        <item>28;兵庫</item>
+        <item>29;奈良</item>
+        <item>30;和歌山</item>
+        <item>31;鳥取</item>
+        <item>32;島根</item>
+        <item>33;岡山</item>
+        <item>34;広島</item>
+        <item>35;山口</item>
+        <item>36;徳島</item>
+        <item>37;香川</item>
+        <item>38;愛媛</item>
+        <item>39;高知</item>
+        <item>40;福岡</item>
+        <item>41;佐賀</item>
+        <item>42;長崎</item>
+        <item>43;熊本</item>
+        <item>44;大分</item>
+        <item>45;宮崎</item>
+        <item>46;鹿児島</item>
+        <item>47;沖縄</item>
+
+    </string-array>
+
+
+
+</resources>

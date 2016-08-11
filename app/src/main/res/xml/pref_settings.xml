@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:id="@+id/LPrefrence1"
+        android:key="my_area_code"
+        android:title="天気予報の地域"
+        android:summary=""
+        android:dialogTitle="地域を選択して下さい" />
+
+    <PreferenceScreen
+        android:title="RSSの表示設定"
+        android:summary="メニューへの表示・非表示を設定します"
+        android:key="preferenceKey2">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.banchan.drawer_sample"
+            android:targetClass="com.example.banchan.drawer_sample.RSS_Manager" />
+        <!-- full path で書かないとClassNotFoundエラーになる  -->
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="RSSの追加"
+        android:summary="新しいRSSをメニューへ追加します"
+        android:key="preferenceKey3">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.banchan.drawer_sample"
+            android:targetClass="com.example.banchan.drawer_sample.RSS_resister" />
+        <!-- full path で書かないとClassNotFoundエラーになる  -->
+    </PreferenceScreen>
+
+    <ListPreference
+        android:key="period_of_news"
+        android:title="ニュースの表示日数"
+        android:summary=""
+        android:entries="@array/periods"
+        android:entryValues="@array/periods"
+        android:dialogTitle="何日前まで表示するか選択して下さい" />
+
+    <ListPreference
+        android:key="text_size"
+        android:title="文字のサイズ"
+        android:summary=""
+        android:entries="@array/textsize"
+        android:entryValues="@array/textsize"
+        android:dialogTitle="文字サイズを選択して下さい" />
+
+    <ListPreference
+        android:key="timeout_for_parse"
+        android:title="タイムアウト時間（秒）"
+        android:summary=""
+        android:entries="@array/timeout"
+        android:entryValues="@array/timeout"
+        android:dialogTitle="webアクセスのタイムアウト時間" />
+
+    <CheckBoxPreference
+        android:key="db_initialized"
+        android:title="URI情報の変更を保持する"
+        android:summary="注意 : チェックを外すと、次回起動時にuri情報が初期化されます"
+         />
+
+
+</PreferenceScreen>
