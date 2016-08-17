@@ -4,5 +4,4 @@
 
 [使い方](/app/リリース/RSSReaderLITE説明書_160530.xlsx)
 
-/app/src/main/res/mipmap-hdpi/ic_launcher.png
-
+![rssL](/app/src/main/res/mipmap-hdpi/ic_launcher.png)
